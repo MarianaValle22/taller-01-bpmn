@@ -1,36 +1,33 @@
-# 🗒️ Registro de Trabajo en Clase - Taller X
+# Registro de Trabajo en Clase - Taller 1
 
-## 📆 Fecha de la sesión
-_Indique la fecha de la clase en que se trabajó este taller._
+## Fecha de la sesión
+Sábado 7 de Febrero de 2026
 
-## 👥 Integrantes presentes
-- Nombre 1
-- Nombre 2
-- Nombre 3
+## Integrantes presentes
+| Nombre | Correo Electrónico |
+|---|---|
+| Valentina Alejandra López Romero | valentinalopro@unisabana.edu.co |
+| Mariana Valle Moreno | marianavamo@unisabana.edu.co |
+| Laura Camila Rodriguez Leon | laurarodleo@unisabana.edu.co |
 
-## 🧠 Actividades realizadas en clase
+## Actividades realizadas en clase
+<div align="justify">
+El objetivo de esta sesión fue modelar el proceso de **Agendamiento de Citas Médicas** de la Clínica Salud Viva utilizando la notación BPMN. Para esto se identificaron eventos, actividades, decisiones, actores e interacciones con sistemas.
+</div>
 
-Describa brevemente qué se hizo durante la sesión:
+<div align="justify">
+Durante la clase se realizó el análisis del contexto del caso base, se identificó al paciente como actor principal y se definió el flujo central del proceso, que incluye la selección de especialidad, elección del médico, consulta de disponibilidad, selección de fecha y confirmación de la cita. Asimismo, se identificaron las interacciones con el sistema de gestión de citas, la base de datos y el servicio de notificación por correo electrónico o SMS. Finalmente, se elaboró un boceto inicial del modelo BPMN y se recibió retroalimentación para realizar ajustes al diagrama.
+</div>
 
-- ¿Qué se discutió con el equipo?
-- ¿Qué decisiones de modelado se tomaron?
-- ¿Qué herramientas se usaron (papel, pizarra, draw.io, Astah)?
-- ¿Qué parte del trabajo se alcanzó a desarrollar?
+## Modelo Final
+<p align="center">
+  <img src="./modelo.jpg" alt="Modelo BPMN - Clínica Salud Viva" width="70%"/>
+</p>
 
-## 🧩 Boceto inicial del modelo
-
-> (Puede insertar aquí una imagen del boceto, una captura de pantalla o un diagrama preliminar si ya fue hecho en digital)
-
-## 🔁 Tareas definidas para complementar el taller
-
-Anote las responsabilidades acordadas entre los miembros del equipo para completar la entrega final:
+## Tareas definidas para complementar el taller
 
 | Tarea asignada | Responsable | Fecha estimada |
 |----------------|-------------|----------------|
-| Modelado final en draw.io | Nombre 1 | 10/08 |
-| Redacción del informe     | Nombre 2 | 11/08 |
-| Investigación y referencias | Nombre 3 | 12/08 |
-
----
-
-_Este documento resume el trabajo colaborativo realizado durante la sesión del taller X en el curso AREM - Universidad de La Sabana._
+| Modelado final en draw.io | Valentina Alejandra López Romero | 13/02 |
+| Redacción del registro de trabajo en clase | Mariana Valle Moreno | 13/02 |
+| Contacto inicial con cliente real | Laura Camila Rodriguez Leon | 16/02 |
