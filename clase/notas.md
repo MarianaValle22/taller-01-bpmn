@@ -11,9 +11,7 @@ Sábado 7 de Febrero de 2026
 | Laura Camila Rodriguez Leon | laurarodleo@unisabana.edu.co |
 
 ## Actividades realizadas en clase
-<div align="justify">
 El objetivo de esta sesión fue modelar el proceso de **Agendamiento de Citas Médicas** de la Clínica Salud Viva utilizando la notación BPMN. Para esto se identificaron eventos, actividades, decisiones, actores e interacciones con sistemas.
-</div>
 
 <div align="justify">
 Durante la clase se realizó el análisis del contexto del caso base, se identificó al paciente como actor principal y se definió el flujo central del proceso, que incluye la selección de especialidad, elección del médico, consulta de disponibilidad, selección de fecha y confirmación de la cita. Asimismo, se identificaron las interacciones con el sistema de gestión de citas, la base de datos y el servicio de notificación por correo electrónico o SMS. Finalmente, se elaboró un boceto inicial del modelo BPMN y se recibió retroalimentación para realizar ajustes al diagrama.
