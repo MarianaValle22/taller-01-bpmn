@@ -89,7 +89,7 @@ En consecuencia, mientras el caso base representa un proceso digitalmente maduro
 
 ## Diagrama final entregado
 <p align="center">
-  <img src="./BPMN_Real_Client.jpg" alt="Modelo BPMN - Recolección y Consolidación de Información Académica para la Encuesta de Autoevaluación Institucional y por Programas de la Universidad de la Sabana" width="100%"/>
+  <img src="./BPMN_Real_Client_Correct.jpg" alt="Modelo BPMN - Recolección y Consolidación de Información Académica para la Encuesta de Autoevaluación Institucional y por Programas de la Universidad de la Sabana" width="100%"/>
 </p>
 
 ## Tabla de actores, entidades o componentes
@@ -101,16 +101,53 @@ En consecuencia, mientras el caso base representa un proceso digitalmente maduro
 | Formato Excel                  | Objeto de datos | Archivo enviado para diligenciamiento de información académica            | Director de Programa        |
 | Excel Consolidado              | Objeto de datos | Archivo maestro con información validada y lista para planeación logística | Coordinadora de Encuestas   |
 
-## 🔍 Investigación complementaria
-### Tema investigado:
-(Ej: Buenas prácticas BPMN, comparación TOGAF vs C4, principios de seguridad STRIDE, etc.)
+## Investigación complementaria
+### Tema investigado: Buenas prácticas BPMN
+
+El estándar BPMN (Business Process Model and Notation), definido por la Object Management Group (OMG), proporciona una notación gráfica estandarizada que permite modelar, analizar y comunicar procesos de negocio de manera uniforme [1]. No obstante, diversos autores y proveedores de herramientas coinciden en que el uso del estándar no garantiza por sí mismo claridad o efectividad en los modelos; la calidad del resultado depende de la correcta aplicación de buenas prácticas de modelado.
+
+Entre las principales buenas prácticas identificadas se encuentran:
+
+- **Definir claramente el inicio y el fin del proceso**:  
+  Es fundamental establecer explícitamente los eventos de inicio y fin para delimitar el alcance del proceso, identificar entradas y salidas y evitar ambigüedades en su interpretación. Aunque BPMN permite eventos implícitos, su representación explícita mejora la comprensión del diagrama [1][2].
+
+- **Mantener una secuencia y lógica claras**:  
+  El flujo del proceso debe seguir una dirección coherente y comprensible, evitando cruces innecesarios de conectores. Esto facilita la lectura del modelo y permite identificar fácilmente el escenario principal y los escenarios alternativos [2].
+
+- **Descomponer el proceso en actividades manejables**:  
+  Dividir actividades complejas en tareas más pequeñas y comprensibles mejora el análisis y evita diagramas sobrecargados. Es preferible optar por un nivel de detalle ajustado al propósito del modelo y a su audiencia [2].
+
+- **Establecer límites claros entre los participantes**:  
+  Cuando intervienen múltiples actores, es importante delimitar responsabilidades y representar adecuadamente la interacción entre ellos. Cada actividad debe tener un responsable claramente identificado, lo que fortalece la trazabilidad y la comprensión organizacional del proceso [2].
+
+- **Utilizar correctamente las compuertas de decisión**:  
+  Las decisiones deben modelarse mediante compuertas (exclusivas, paralelas o inclusivas) y no mediante tareas. Es esencial definir condiciones claras para evitar ambigüedades y garantizar coherencia lógica en el diagrama [1][2].
+
+- **Considerar escalabilidad y reutilización**:  
+  Los procesos deben diseñarse pensando en su posible reutilización y adaptación futura. Identificar componentes reutilizables permite que el modelo sea flexible ante cambios organizacionales o tecnológicos [2].
+
+-  **Seleccionar correctamente el tipo de actividad según su naturaleza**:  
+  BPMN no solo define tareas, sino distintos tipos de actividades que deben utilizarse de manera coherente según el comportamiento real del proceso. Elegir el tipo correcto mejora la precisión semántica del modelo y facilita su futura automatización [3].
+
+   Dentro del estándar existen diferentes tipos de tareas, cada una diseñada para representar un comportamiento específico. Por ejemplo, la *Tarea de Usuario (User Task)* se emplea cuando la actividad es realizada por una persona mediante una interfaz de sistema; la *Tarea de Servicio (Service Task)* cuando la ejecución es automática por parte de un sistema; la *Tarea Manual (Manual Task)* cuando no interviene ninguna herramienta tecnológica; la *Tarea de Envío (Send Task)* y la *Tarea de Recepción (Receive Task)* cuando existe intercambio de mensajes; la *Tarea de Script (Script Task)* cuando se ejecuta código interno; y la *Tarea de Regla de Negocio (Business Rule Task)* cuando se aplican decisiones definidas en un motor de reglas.  
+
+   Utilizar correctamente estos símbolos permite que el modelo refleje con mayor exactitud si una actividad es manual, automatizada o dependiente de interacción externa. Esta práctica no solo mejora la claridad del diagrama, sino que también facilita su análisis técnico en escenarios de automatización futura [3].
+
+La aplicación de estas buenas prácticas fue fundamental en el desarrollo del modelo correspondiente al proceso de Recolección y Consolidación de Información Académica para la encuesta de Autoevaluación Institucional y por Programas. Durante el modelado se definieron explícitamente los eventos de inicio y fin, se mantuvo una secuencia lógica clara de izquierda a derecha y se diferenciaron adecuadamente los escenarios principales y alternativos mediante compuertas exclusivas. Asimismo, se procuró asignar responsabilidades claras a cada actor involucrado y seleccionar el tipo de tarea adecuado según la naturaleza de la actividad.
+
+La correcta aplicación de estas practicas nos permitió obtener un modelo comprensible y evidenciar que BPMN no es únicamente una herramienta de representación gráfica, sino un instrumento de análisis que facilita la identificación de reprocesos, puntos críticos y oportunidades de mejora.
 
 ### Resumen:
-Describa en 2–3 párrafos lo investigado, citando fuentes cuando sea necesario. Incluya cómo se relaciona con el taller.
 
-## 📚 Referencias
-- [1] Apellido, Nombre. *Título*. Año. URL o DOI.
-- [2] Fuente oficial BPMN: https://www.omg.org/spec/BPMN/
+Las buenas prácticas en BPMN establecen que un modelo efectivo debe mantener una secuencia lógica clara, definir explícitamente su inicio y fin, utilizar adecuadamente compuertas para representar decisiones y asignar responsabilidades de forma precisa entre los participantes [1][2]. Asimismo, se recomienda descomponer procesos complejos en actividades manejables, mantener un nivel de detalle acorde al propósito del modelo y seleccionar correctamente el tipo de tarea según su naturaleza (manual, automatizada o basada en mensajes), garantizando coherencia y claridad en la representación [2][3].
+
+En el desarrollo del modelo del proceso deRecolección y Consolidación de Información Académica para encuesta Autoevaluación Institucional y por Programas, estos principios fueron aplicados para asegurar un diagrama estructurado, comprensible y alineado con el estándar BPMN. La correcta utilización de eventos, compuertas y tipos de tareas permitió reflejar fielmente la lógica real del proceso y sentar bases sólidas para su análisis y futura optimización, tal como recomiendan las fuentes [1][2].
+
+## Referencias
+- [1] Bizagi, “Mejores prácticas en modelado de procesos”, Bizagi Help Platform, s.f. [En línea]. Disponible en: https://help.bizagi.com/platform/es/index.html?best-practices-in-process-mode.htm. [Accedido: 19-feb-2026].
+- [2] Qflow BPM, “Prácticas Efectivas de Implementación BPMN: Mejores Métodos”, Qflow BPM, s.f. [En línea]. Disponible en: https://qflowbpm.com/es/bpmn-mejores-practicas/. [Accedido: 19-feb-2026].
+- [3] HEFLO, “Notación BPMN: Guía completa,” HEFLO Blog, s.f. [En línea]. Disponible en: https://blog.heflo.com/notacion-bpmn/. [Accedido: 19-feb-2026].
+- [4] Fuente oficial BPMN: https://www.omg.org/spec/BPMN/
 
 ---
 
