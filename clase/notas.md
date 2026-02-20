@@ -19,7 +19,7 @@ Durante la clase se realizó el análisis del contexto del caso base, se identif
 
 ## Modelo Final
 <p align="center">
-  <img src="./modelo.jpg" alt="Modelo BPMN - Clínica Salud Viva" width="70%"/>
+  <img src="./modelo.png" alt="Modelo BPMN - Clínica Salud Viva" width="70%"/>
 </p>
 
 ## Tareas definidas para complementar el taller
