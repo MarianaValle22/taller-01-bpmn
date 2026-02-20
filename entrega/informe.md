@@ -70,6 +70,8 @@ El modelo representa el proceso de Recolección y Consolidación de Información
 
 Desde el punto de vista estructural, el diagrama incorpora eventos de mensaje para representar el intercambio de correos electrónicos, un evento intermedio de temporizador que modela la espera entre la programación y la realización de la reunión, y puntos de decisión que permiten evidenciar situaciones reales del proceso, como la validación de disponibilidad de agenda y la verificación del formato del archivo Excel completado por los directores de programa.
 
+Es importante aclarar que la actividad _Realizar reunión explicativa_ fue modelada bajo la responsabilidad de la Coordinadora de Encuestas, dado que es quien lidera el proceso y convoca la sesión. Sin embargo, esta actividad implica la participación activa del Director de Programa. En el modelo se optó por asignar la responsabilidad principal a un solo actor para mantener claridad en la distribución de responsabilidades, entendiendo que la reunión es una interacción colaborativa entre ambas partes.
+
 El modelo no solo describe las actividades del proceso, sino que también hace visibles los reprocesos que forman parte de su ejecución real. La necesidad de solicitar nuevos horarios cuando no existe disponibilidad para concretar la reunión con los directores de programa, así como la obligación de ajustar manualmente el formato del archivo Excel recibido, evidencian claramente la carga operativa actual. Según lo indicado por el cliente, la información enviada por los directores no se encuentra estandarizada; cada uno remite los datos en el formato que considera conveniente, lo que genera inconsistencias, campos incompletos y errores que deben corregirse manualmente antes de su consolidación. De esta manera, el diagrama cumple con uno de los propósitos fundamentales del modelado BPMN: **hacer explícitos los puntos críticos, los cuellos de botella y las dependencias que pueden afectar la eficiencia y la calidad del proceso**.
 
 Desde la perspectiva de Arquitectura Empresarial, el proceso evidencia oportunidades de mejora en la forma en que se organiza, se gestiona la información y se apoya en la tecnología:
@@ -90,7 +92,7 @@ En consecuencia, mientras el caso base representa un proceso digitalmente maduro
   <img src="./BPMN_Real_Client.jpg" alt="Modelo BPMN - Recolección y Consolidación de Información Académica para la Encuesta de Autoevaluación Institucional y por Programas de la Universidad de la Sabana" width="100%"/>
 </p>
 
-## 📋 Tabla de actores, entidades o componentes (si aplica)
+## Tabla de actores, entidades o componentes
 
 | Nombre del elemento            | Tipo            | Descripción                                                                 | Responsable                  |
 |---------------------------------|-----------------|-----------------------------------------------------------------------------|------------------------------|
