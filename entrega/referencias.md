@@ -1,27 +1,26 @@
-# 📚 Referencias Bibliográficas del Taller
+# Referencias Bibliográficas del Taller
 
 Este archivo contiene las fuentes consultadas para el desarrollo del taller, tanto para el componente técnico como para la investigación complementaria.
 
-## 🔖 Taller
-_Taller X - [Nombre del Taller]_
+## Taller
+_Taller 1_
 
 ---
 
-## 📚 Referencias utilizadas
-
-1. Apellido, Nombre. *Título del libro o artículo*. Editorial, Año. URL o DOI.  
-2. Organización. *Especificación técnica o estándar consultado*. URL.  
-3. Sitio web institucional. "Título del artículo o página". [Enlace](https://ejemplo.com). Fecha de consulta: DD/MM/AAAA.  
-4. Otro recurso académico o técnico citado.
-
----
-
-## 📌 Recomendaciones
-
-- Usa formato APA o IEEE para citar.
-- No incluyas fuentes como Wikipedia si hay mejores alternativas.
-- Si usas inteligencia artificial para redactar o investigar, cítalo como "Fuente asistida por IA: ChatGPT, julio 2025".
+## Referencias utilizadas
+1. Bizagi, “Mejores prácticas en modelado de procesos”, Bizagi Help Platform, s.f. [En línea]. Disponible en: https://help.bizagi.com/platform/es/index.html?best-practices-in-process-mode.htm. [Accedido: 19-feb-2026].
+2. Qflow BPM, “Prácticas Efectivas de Implementación BPMN: Mejores Métodos”, Qflow BPM, s.f. [En línea]. Disponible en: https://qflowbpm.com/es/bpmn-mejores-practicas/. [Accedido: 19-feb-2026].
+3. HEFLO, “Notación BPMN: Guía completa,” HEFLO Blog, s.f. [En línea]. Disponible en: https://blog.heflo.com/notacion-bpmn/. [Accedido: 19-feb-2026].
+4. Fuente oficial BPMN: https://www.omg.org/spec/BPMN/
 
 ---
 
-_Este archivo forma parte de la entrega académica del curso AREM - Universidad de La Sabana._
+## Recomendaciones
+
+- Se utilizó formato IEEE para la citación.
+- Se priorizaron fuentes oficiales y especializadas en BPMN y gestión de procesos.
+- Fuente asistida por IA: ChatGPT, febrero 2026.
+
+---
+
+_Este documento hace parte de la entrega del taller 1 del curso AREM (Arquitectura Empresarial) - Universidad de La Sabana._
